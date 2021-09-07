@@ -1,0 +1,58 @@
+this is an altered case than the one in the course. here I'm assuming that the astronauts need a clothes washing machine.
+
+Requirements (FURPS):
+
+  Functionality:
+    - can wash clothes
+    - identify individual users
+    - accept user clothes
+    - accept user settings
+    - keep track of users clothes
+    - allow the user to schedule washing sessions
+    - notify the user with their clothes status
+
+  Usability:
+    - intuitive and easy to use
+    - offering instructions and tutorials
+
+  Reliability:
+    -should be available 24/7 
+
+  Performance:
+    - should be power efficient 
+    - high endurance
+
+  Supportability:
+    - maintainable and updatable for all kinds of fabrics 
+    - technician can update and maintain the system
+
+
+Use cases:
+
+  1- Title: Wash clothes
+    Primary Actor: User
+    Success scenario: 
+      1- system identifies user.
+      2- user loads his clothes
+      3- user inputs his settings
+      4- system washes user's clothes
+      5- system tracks clothes status
+      6- system notify the user when finish
+
+  2- Title: Fixing and updating the system
+    Primary Actor: Technician
+    Success scenario:
+      1- system identifies technician
+      2- technician access all settings
+      3- technician update settings
+      4- technician fix machine
+    
+
+User stories:
+  * As a user i want to be able to wash my clothes so i can have clean clothes
+
+  * As a user i want to be able to choose my settings so i don't rune my clothes
+
+  * As a user i want to be able to schedule a washing if the machine was busy so i can wash my clothes
+
+  * As a user i want to be able to contact a technician to support me if the machine has unexpected behavior so i can continue using it.
